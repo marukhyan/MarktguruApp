@@ -15,6 +15,11 @@ struct MarktguruApp: App {
     var body: some Scene {
         WindowGroup {
             TabView {
+                ProductsView()
+                    .tabItem {
+                        Label("Products", systemImage: "bag.fill")
+                    }
+                
                 SettingsView()
                     .tabItem {
                         Label("Settings", systemImage: "gear")
