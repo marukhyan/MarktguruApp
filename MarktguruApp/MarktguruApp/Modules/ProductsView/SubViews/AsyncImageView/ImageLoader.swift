@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-class ImageLoader: ObservableObject {
+final class ImageLoader: ObservableObject {
     @Published var image: UIImage?
     @Published var isLoading = false
     @Published var error: Error?

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-class SettingsViewModel: ObservableObject {
+final class SettingsViewModel: ObservableObject {
     @Published var isDarkMode: Bool {
         didSet {
             ThemeManager.shared.isDarkMode = isDarkMode
