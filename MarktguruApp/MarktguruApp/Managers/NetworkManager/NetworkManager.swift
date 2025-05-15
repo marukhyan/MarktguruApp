@@ -47,7 +47,7 @@ final class NetworkManager: NetworkManagerProtocol {
         }
         
         #if DEBUG
-        print("\n REQUEST:")
+        print("\n📥 REQUEST:")
         print("URL: \(urlRequest.url?.absoluteString ?? "")")
         print("Method: \(urlRequest.httpMethod ?? "")")
         print("Headers: \(urlRequest.allHTTPHeaderFields ?? [:])")
