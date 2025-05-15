@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		AD71D61F2DD6458A00F6D1D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD71D6062DD6458900F6D1D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD71D60D2DD6458900F6D1D7;
+			remoteInfo = MarktguruApp;
+		};
+		AD71D6292DD6458A00F6D1D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD71D6062DD6458900F6D1D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD71D60D2DD6458900F6D1D7;
+			remoteInfo = MarktguruApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD71D60E2DD6458900F6D1D7 /* MarktguruApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarktguruApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD71D61E2DD6458A00F6D1D7 /* MarktguruAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarktguruAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD71D6282DD6458A00F6D1D7 /* MarktguruAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarktguruAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AD71D6102DD6458900F6D1D7 /* MarktguruApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MarktguruApp;
+			sourceTree = "<group>";
+		};
+		AD71D6212DD6458A00F6D1D7 /* MarktguruAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MarktguruAppTests;
+			sourceTree = "<group>";
+		};
+		AD71D62B2DD6458A00F6D1D7 /* MarktguruAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MarktguruAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD71D60B2DD6458900F6D1D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD71D61B2DD6458A00F6D1D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD71D6252DD6458A00F6D1D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD71D6052DD6458900F6D1D7 = {
+			isa = PBXGroup;
+			children = (
+				AD71D6102DD6458900F6D1D7 /* MarktguruApp */,
+				AD71D6212DD6458A00F6D1D7 /* MarktguruAppTests */,
+				AD71D62B2DD6458A00F6D1D7 /* MarktguruAppUITests */,
+				AD71D60F2DD6458900F6D1D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD71D60F2DD6458900F6D1D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD71D60E2DD6458900F6D1D7 /* MarktguruApp.app */,
+				AD71D61E2DD6458A00F6D1D7 /* MarktguruAppTests.xctest */,
+				AD71D6282DD6458A00F6D1D7 /* MarktguruAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD71D60D2DD6458900F6D1D7 /* MarktguruApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD71D6322DD6458A00F6D1D7 /* Build configuration list for PBXNativeTarget "MarktguruApp" */;
+			buildPhases = (
+				AD71D60A2DD6458900F6D1D7 /* Sources */,
+				AD71D60B2DD6458900F6D1D7 /* Frameworks */,
+				AD71D60C2DD6458900F6D1D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AD71D6102DD6458900F6D1D7 /* MarktguruApp */,
+			);
+			name = MarktguruApp;
+			packageProductDependencies = (
+			);
+			productName = MarktguruApp;
+			productReference = AD71D60E2DD6458900F6D1D7 /* MarktguruApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD71D61D2DD6458A00F6D1D7 /* MarktguruAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD71D6352DD6458A00F6D1D7 /* Build configuration list for PBXNativeTarget "MarktguruAppTests" */;
+			buildPhases = (
+				AD71D61A2DD6458A00F6D1D7 /* Sources */,
+				AD71D61B2DD6458A00F6D1D7 /* Frameworks */,
+				AD71D61C2DD6458A00F6D1D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD71D6202DD6458A00F6D1D7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AD71D6212DD6458A00F6D1D7 /* MarktguruAppTests */,
+			);
+			name = MarktguruAppTests;
+			packageProductDependencies = (
+			);
+			productName = MarktguruAppTests;
+			productReference = AD71D61E2DD6458A00F6D1D7 /* MarktguruAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD71D6272DD6458A00F6D1D7 /* MarktguruAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD71D6382DD6458A00F6D1D7 /* Build configuration list for PBXNativeTarget "MarktguruAppUITests" */;
+			buildPhases = (
+				AD71D6242DD6458A00F6D1D7 /* Sources */,
+				AD71D6252DD6458A00F6D1D7 /* Frameworks */,
+				AD71D6262DD6458A00F6D1D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD71D62A2DD6458A00F6D1D7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AD71D62B2DD6458A00F6D1D7 /* MarktguruAppUITests */,
+			);
+			name = MarktguruAppUITests;
+			packageProductDependencies = (
+			);
+			productName = MarktguruAppUITests;
+			productReference = AD71D6282DD6458A00F6D1D7 /* MarktguruAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD71D6062DD6458900F6D1D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					AD71D60D2DD6458900F6D1D7 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					AD71D61D2DD6458A00F6D1D7 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = AD71D60D2DD6458900F6D1D7;
+					};
+					AD71D6272DD6458A00F6D1D7 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = AD71D60D2DD6458900F6D1D7;
+					};
+				};
+			};
+			buildConfigurationList = AD71D6092DD6458900F6D1D7 /* Build configuration list for PBXProject "MarktguruApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD71D6052DD6458900F6D1D7;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AD71D60F2DD6458900F6D1D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD71D60D2DD6458900F6D1D7 /* MarktguruApp */,
+				AD71D61D2DD6458A00F6D1D7 /* MarktguruAppTests */,
+				AD71D6272DD6458A00F6D1D7 /* MarktguruAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD71D60C2DD6458900F6D1D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD71D61C2DD6458A00F6D1D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD71D6262DD6458A00F6D1D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD71D60A2DD6458900F6D1D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD71D61A2DD6458A00F6D1D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD71D6242DD6458A00F6D1D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD71D6202DD6458A00F6D1D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD71D60D2DD6458900F6D1D7 /* MarktguruApp */;
+			targetProxy = AD71D61F2DD6458A00F6D1D7 /* PBXContainerItemProxy */;
+		};
+		AD71D62A2DD6458A00F6D1D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD71D60D2DD6458900F6D1D7 /* MarktguruApp */;
+			targetProxy = AD71D6292DD6458A00F6D1D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AD71D6302DD6458A00F6D1D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD71D6312DD6458A00F6D1D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD71D6332DD6458A00F6D1D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MarktguruApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Test.MarktguruApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD71D6342DD6458A00F6D1D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MarktguruApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Test.MarktguruApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD71D6362DD6458A00F6D1D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Test.MarktguruAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarktguruApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MarktguruApp";
+			};
+			name = Debug;
+		};
+		AD71D6372DD6458A00F6D1D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Test.MarktguruAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarktguruApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MarktguruApp";
+			};
+			name = Release;
+		};
+		AD71D6392DD6458A00F6D1D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Test.MarktguruAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarktguruApp;
+			};
+			name = Debug;
+		};
+		AD71D63A2DD6458A00F6D1D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Test.MarktguruAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarktguruApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD71D6092DD6458900F6D1D7 /* Build configuration list for PBXProject "MarktguruApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD71D6302DD6458A00F6D1D7 /* Debug */,
+				AD71D6312DD6458A00F6D1D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD71D6322DD6458A00F6D1D7 /* Build configuration list for PBXNativeTarget "MarktguruApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD71D6332DD6458A00F6D1D7 /* Debug */,
+				AD71D6342DD6458A00F6D1D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD71D6352DD6458A00F6D1D7 /* Build configuration list for PBXNativeTarget "MarktguruAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD71D6362DD6458A00F6D1D7 /* Debug */,
+				AD71D6372DD6458A00F6D1D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD71D6382DD6458A00F6D1D7 /* Build configuration list for PBXNativeTarget "MarktguruAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD71D6392DD6458A00F6D1D7 /* Debug */,
+				AD71D63A2DD6458A00F6D1D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD71D6062DD6458900F6D1D7 /* Project object */;
+}
